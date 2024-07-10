@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.app-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.app-item-cont {
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .app-icon {
+    height: 60px;
+    width: 70px;
+  }
+  .app-item-cont {
+    width: 130px;
+    height: 130px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-icon {
+    height: 40px;
+    width: 46px;
+  }
+  .app-item-cont {
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+  }
+}

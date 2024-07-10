@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.tab-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.tab-btn {
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  font-family: Bree Serif;
+}
+.selected-tab-btn {
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  font-family: Bree Serif;
+  color: #2563eb;
+}
+
+.line {
+  border: 2px solid rgb(130, 118, 118);
+  width: 100%;
+}
+
+.selected-line {
+  border: 2px solid #2563eb;
+  width: 100%;
+}
